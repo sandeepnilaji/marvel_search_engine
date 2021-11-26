@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(17, 11, 11);
+}
+input[type="text"] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+button {
+  padding: 6px 10px;
+  border-radius: 20px;
+  background: yellow;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+}
+#show {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(45, 47, 48);
+  color: rgb(159, 160, 136);
+  border-radius: 25px;
+}
+.main_div {
+  margin: auto;
+  max-width: 40%;
+  background-color: rgb(45, 47, 48);
+  color: rgb(159, 160, 136);
+  border-radius: 25px;
+}
+input {
+  border: none;
+  width: 85%;
+  margin-left: 11px;
+  background-color: rgb(45, 47, 48);
+  color: rgb(159, 160, 136);
+}
+input:focus {
+  outline: none;
+}
+.img_div {
+  width: 24%;
+  margin: auto;
+}
+img {
+  margin-left: 20px;
+  height: 150px;
+}
+.showing:hover {
+  background-color: yellow;
+  color: black;
+  border-radius: 7px;
+  font-weight: bold;
+  width: 90%;
+  border: 1px solid black;
+}
+.showing {
+  height: 25px;
+  margin-left: 10px;
+  width: 90%;
+}
