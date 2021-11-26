@@ -47,5 +47,3 @@ function detailpage(el) {
   let arr = el;
   localStorage.setItem("starwar", JSON.stringify(arr));
 }
-//// http://gateway.marvel.com/v1/public/comics?apikey=cca334c943a9b392226ba7f0c51fc0f3
-/// ts=1&apikey=cca334c943a9b392226ba7f0c51fc0f3&hash=ffd275c5130566a2916217b101f26150
